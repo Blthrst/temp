@@ -1,0 +1,7 @@
+services:
+  server:
+    image: node-app
+    container_name: node-app
+    restart: unless-stopped
+    ports:
+      - 8080:8080
